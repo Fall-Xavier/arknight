@@ -1,0 +1,2 @@
+# arknight
+Simple Arknight Gacha

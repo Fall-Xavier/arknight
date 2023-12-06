@@ -108,7 +108,7 @@ class Gacha:
 		data = []
 		star = random.choices(list(rate.keys()), weights=list(rate.values()))[0]
 		for chara in self.file:
-			if star in chara.split(",")[1]:
+			if star in chara.split(",")[2]:
 				data.append(chara)
 		return random.choice(data)
 			
